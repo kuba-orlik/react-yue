@@ -1,5 +1,5 @@
 {
-  "name": "react-yue",
+  "name": "react-yue-kuba",
   "version": "0.4.1",
   "description": "This is a lib to help you render the View of Yue in the react way.",
   "main": "lib/index.js",

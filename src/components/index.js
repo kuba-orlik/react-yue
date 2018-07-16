@@ -1,30 +1,32 @@
-const button = require('./button')
-const container = require('./container')
-const entry = require('./entry')
-const group = require('./group')
-const progressbar = require('./progress_bar')
-const scroll = require('./scroll')
-const label = require('./label')
-const textedit = require('./text_edit')
-const vibrant = require('./vibrant')
+const button = require("./button");
+const container = require("./container");
+const entry = require("./entry");
+const group = require("./group");
+const progressbar = require("./progress_bar");
+const scroll = require("./scroll");
+const label = require("./label");
+const textedit = require("./text_edit");
+const vibrant = require("./vibrant");
+const image = require("./image");
 
 const Components = {
-  button,
-  container,
-  entry,
-  group,
-  progressbar,
-  scroll,
-  label,
-  textedit,
-  vibrant,
-}
+	button,
+	container,
+	entry,
+	group,
+	progressbar,
+	scroll,
+	label,
+	textedit,
+	vibrant,
+	image,
+};
 
 function hasComponent(type) {
-  return Object.hasOwnProperty.call(Components, type)
+	return Object.hasOwnProperty.call(Components, type);
 }
 
 module.exports = {
-  hasComponent,
-  Components,
-}
+	hasComponent,
+	Components,
+};
